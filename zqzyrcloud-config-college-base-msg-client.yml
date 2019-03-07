@@ -31,8 +31,8 @@ eureka:
       #defaultZone: http://localhost:7001/eureka
       defaultZone: http://eureka7001.com:7001/eureka/
   instance:
-    #instance-id: zqzyrcloud-8001   #自定义服务名称信息
-    instance-id: zqzyrcloud-hystrix-8001   #自定义服务名称信息
+    instance-id: zqzyrcloud-8001   #自定义服务名称信息
+    #instance-id: zqzyrcloud-hystrix-8001   #自定义服务名称信息
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
@@ -70,8 +70,8 @@ eureka:
       #defaultZone: http://localhost:7001/eureka
       defaultZone: http://eureka7001.com:7001/eureka/
   instance:
-    #instance-id: zqzyrcloud-8001   #自定义服务名称信息
-    instance-id: zqzyrcloud-hystrix-8001   #自定义服务名称信息
+    instance-id: zqzyrcloud-8001   #自定义服务名称信息
+    #instance-id: zqzyrcloud-hystrix-8001   #自定义服务名称信息
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
