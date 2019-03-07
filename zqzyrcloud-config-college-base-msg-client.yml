@@ -10,7 +10,7 @@ spring:
   application:
     name: zqzyrcloud-config-college-base-msg-client
   datasource:
-    type: com.alibaba.druid.pool.DruidDateSource
+    type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
     url: jdbc:mysql://localhost:3306/zqzyr
     username: root
@@ -49,7 +49,7 @@ spring:
   application:
     name: zqzyrcloud-config-college-base-msg-client
   datasource:
-    type: com.alibaba.druid.pool.DruidDateSource
+    type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
     url: jdbc:mysql://localhost:3306/zqzyr
     username: root
